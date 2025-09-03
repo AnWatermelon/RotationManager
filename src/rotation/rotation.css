@@ -1,0 +1,32 @@
+.rotation-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5%;
+  height: 300px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+}
+
+.rotation-container p {
+  margin: 8px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.AddSpotButton {
+  display: block;
+  margin: 24px auto 0 auto;
+  text-align: center;
+  color: #888;
+  opacity: 0.7;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
